@@ -1,11 +1,11 @@
 from pydantic import BaseModel
 
-class Response_price(BaseModel):
+class ResponsePrice(BaseModel):
     symbol: str
     price: str
     time: int
 
-class Response_trades(BaseModel):
+class ResponseTrades(BaseModel):
     id: int
     price: str
     qty: str
