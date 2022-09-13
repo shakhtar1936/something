@@ -9,7 +9,7 @@ class ResponseTrades(BaseModel):
     id: int
     price: str
     qty: str
-    quoteQty: str = Field(alias="quote_qty")
+    quoteQty: str = Field(alias="quote_quantity")
     time: int
     isBuyerMaker: bool
 
